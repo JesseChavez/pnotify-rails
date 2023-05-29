@@ -48,7 +48,7 @@ var init = function(root){
         PNotify.prototype.options.stack.context = body;
         jwindow = $(root);
         // Reposition the notices when the window resizes.
-        jwindow.bind('resize', function(){
+        jwindow.on('resize', function(){
             if (posTimer) {
                 clearTimeout(posTimer);
             }
