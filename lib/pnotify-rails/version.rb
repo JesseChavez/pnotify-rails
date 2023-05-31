@@ -1,5 +1,7 @@
+# frozen_string_literal: true
+
 module PNotify
   module Rails
-    VERSION = '3.0.0'
+    VERSION = '42.0.0'
   end
 end
