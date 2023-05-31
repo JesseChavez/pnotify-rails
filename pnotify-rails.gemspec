@@ -13,6 +13,8 @@ Gem::Specification.new do |gem|
   gem.homepage      = 'https://github.com/navinpeiris/pnotify-rails'
   gem.licenses      = ['MIT']
 
+  gem.metadata['allowed_push_host'] = 'http://gems.ibsa.vlan:8808'
+
   gem.files         = Dir["{lib,vendor}/**/*"] + %w(README.md LICENSE.txt)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
